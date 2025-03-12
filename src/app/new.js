@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <Image
-                src="/cbhero.png"
+                src="/logo.png"
                 alt="Hanzo Logo"
                 width={100}
                 height={32}
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="relative max-w-lg mx-auto">
             <Image
               src="/cbhero.png"
-              alt="Delicious Pulao"
+              alt="Delicious Sushi"
               width={500}
               height={300}
               className="rounded-lg mx-auto"
@@ -130,7 +130,7 @@ export default function Home() {
       </section>
 
       {/* Partners Section */}
-      {/* <section className="py-8 bg-gray-100">
+      <section className="py-8 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
             <div className="flex items-center">
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Experience Section */}
       <section className="py-16 bg-white">
@@ -160,8 +160,8 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="relative">
                 <Image
-                  src="/cbp.webp"
-                  alt="Assorted Pulao"
+                  src="/sushi-plate2.jpg"
+                  alt="Assorted Sushi"
                   width={500}
                   height={500}
                   className="rounded-lg"
@@ -177,24 +177,22 @@ export default function Home() {
                   </span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-serif mb-6">
-                  Who are we ?
+                  Immerse yourself in an asian experience
                 </h2>
-                <p className="text-gray-600">
-                  Our journey began in{" "}
-                  <span className="font-semibold text-gray-900">Kakinada</span>,
-                  where we set out to craft the most authentic and flavorful
-                  <span className="font-semibold text-gray-900">
-                    {" "}
-                    Kodi (Chicken) Pulao
-                  </span>
-                  . With a commitment to tradition and taste, we have grown into
-                  multiple branches, bringing the nostalgic flavors of our
-                  beloved dish to more people.
-                </p>
-                <br />
+                Our journey began in{" "}
+                <span className="font-semibold text-gray-900">Kakinada</span>,
+                where we set out to craft the most authentic and flavorful
+                <span className="font-semibold text-gray-900">
+                  {" "}
+                  Kodi (Chicken) Pulao
+                </span>
+                . With a commitment to tradition and taste, we have grown into
+                multiple branches, bringing the nostalgic flavors of our beloved
+                dish to more people.
                 <p className="text-gray-600 mb-8">
-                  Our passion is to provide the best O.G. pulaos and tastes of
-                  Godavari to the next generation.
+                  Our passion is to provide the freshest seafood, expertly
+                  prepared and beautifully presented. We have earned our
+                  reputation with exceptional service and artful dishes.
                 </p>
                 <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md font-medium">
                   VIEW OUR MENU
@@ -216,7 +214,7 @@ export default function Home() {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl font-serif text-center">
-              We make for everyone
+              Immerse yourself in an experience
             </h2>
           </div>
 
@@ -224,40 +222,40 @@ export default function Home() {
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/cbhero.png"
+                  src="/soup.jpg"
                   alt="Soup & Ramen"
                   width={300}
                   height={200}
                   className="rounded-lg mb-4"
                 />
-                <h3 className="text-xl font-serif mb-2">Kodi Pulao</h3>
-                <p className="text-gray-500">NON - VEG</p>
+                <h3 className="text-xl font-serif mb-2">Soup & Ramen</h3>
+                <p className="text-gray-500">JAPANESE</p>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/cbhero.png"
-                  alt="Pulao & Sashimi"
+                  src="/sushi.jpg"
+                  alt="Sushi & Sashimi"
                   width={300}
                   height={200}
                   className="rounded-lg mb-4"
                 />
-                <h3 className="text-xl font-serif mb-2">EGG Pulao</h3>
-                <p className="text-gray-500">NON - VEG</p>
+                <h3 className="text-xl font-serif mb-2">Sushi & Sashimi</h3>
+                <p className="text-gray-500">JAPANESE</p>
               </div>
             </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <div className="p-6">
                 <Image
-                  src="/cbhero.png"
+                  src="/meat.jpg"
                   alt="Meat & Dishes"
                   width={300}
                   height={200}
                   className="rounded-lg mb-4"
                 />
-                <h3 className="text-xl font-serif mb-2">VEG PULAO</h3>
-                <p className="text-gray-500">NON - VEG</p>
+                <h3 className="text-xl font-serif mb-2">Meat & Dishes</h3>
+                <p className="text-gray-500">JAPANESE</p>
               </div>
             </div>
           </div>
@@ -269,93 +267,56 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-serif mb-8">
-              Our Pulao's Range
+              Famous sushi's
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <div className="space-y-4">
-                  {/* Chicken Pulao */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Chicken Pulao</h3>
-                    </div>
-                    <div className="font-medium">₹130</div>
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Philadelphia roll</h3>
+                    <p className="text-gray-500 text-sm">
+                      Salmon, cream cheese, cucumber
+                    </p>
                   </div>
-
-                  {/* Chicken Jumbo Family Mix */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Chicken Jumbo Family Mix</h3>
-                    </div>
-                    <div className="font-medium">₹200</div>
-                  </div>
-
-                  {/* Natukodi Pulao */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Natukodi Pulao</h3>
-                    </div>
-                    <div className="font-medium">₹250</div>
-                  </div>
-
-                  {/* Mutton Pulao */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Mutton Pulao</h3>
-                    </div>
-                    <div className="font-medium">₹250</div>
-                  </div>
-
-                  {/* Mutton Fry Pulao */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Mutton Fry Pulao</h3>
-                    </div>
-                    <div className="font-medium">₹250</div>
-                  </div>
-
-                  {/* Prawns Pulao */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Prawns Pulao</h3>
-                    </div>
-                    <div className="font-medium">₹300</div>
-                  </div>
-
-                  {/* Special Mutton Pulao */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Special Mutton Pulao</h3>
-                    </div>
-                    <div className="font-medium">₹400</div>
-                  </div>
-
-                  {/* Mandi */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">
-                        Mandi (Chicken, Mutton, Prawns)
-                      </h3>
-                    </div>
-                    <div className="font-medium">₹400</div>
-                  </div>
-
-                  {/* Peethala Curry */}
-                  <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Peethala Curry (2 Pieces)</h3>
-                    </div>
-                    <div className="font-medium">₹300</div>
-                  </div>
+                  <div className="font-medium">$12.75</div>
                 </div>
-             
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">California roll</h3>
+                    <p className="text-gray-500 text-sm">
+                      Crab, avocado, cucumber
+                    </p>
+                  </div>
+                  <div className="font-medium">$10.25</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Spicy tuna roll</h3>
+                    <p className="text-gray-500 text-sm">
+                      Tuna, spicy mayo, cucumber
+                    </p>
+                  </div>
+                  <div className="font-medium">$11.95</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Tokyo maki</h3>
+                    <p className="text-gray-500 text-sm">
+                      Tuna, mayo, salmon, avocado
+                    </p>
+                  </div>
+                  <div className="font-medium">$13.50</div>
+                </div>
               </div>
 
               <div className="relative">
                 <Image
-                  src="/cbhero.png"
-                  alt="Special Pulao Rolls"
+                  src="/special-sushi.jpg"
+                  alt="Special Sushi Rolls"
                   width={500}
                   height={300}
                   className="rounded-lg"
@@ -414,7 +375,7 @@ export default function Home() {
 
               <div className="relative md:order-1">
                 <Image
-                  src="/cbhero.png"
+                  src="/seafood.jpg"
                   alt="Sea Food"
                   width={500}
                   height={300}
@@ -439,7 +400,7 @@ export default function Home() {
                   </span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-serif mb-6">
-                  "Authentic Pulao and rolls, expertly crafted with care,
+                  "Authentic sushi and rolls, expertly crafted with care,
                   tradition, and exceptional flavors"
                 </h2>
                 <div className="flex items-center">
@@ -452,7 +413,7 @@ export default function Home() {
             <div className="md:w-1/2">
               <div className="relative">
                 <Image
-                  src="/cbhero.png"
+                  src="/chef.jpg"
                   alt="Head Chef"
                   width={500}
                   height={500}
@@ -482,7 +443,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <Image
-                src="/cbhero.png"
+                src="/blog1.jpg"
                 alt="Blog Post 1"
                 width={400}
                 height={250}
@@ -499,7 +460,7 @@ export default function Home() {
             </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <Image
-                src="/cbhero.png"
+                src="/blog2.jpg"
                 alt="Blog Post 2"
                 width={400}
                 height={250}
@@ -516,7 +477,7 @@ export default function Home() {
             </div>
             <div className="bg-white rounded-lg shadow-sm overflow-hidden">
               <Image
-                src="/cbhero.png"
+                src="/blog3.jpg"
                 alt="Blog Post 3"
                 width={400}
                 height={250}
@@ -552,7 +513,7 @@ export default function Home() {
                   >
                     <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm0-2a6 6 0 110-12 6 6 0 010 12zm-1-5h2v2H9v-2zm0-4h2v2H9V7z"></path>
                   </svg>
-                  <span>123 Pulao Street, Tokyo</span>
+                  <span>123 Sushi Street, Tokyo</span>
                 </div>
                 <div className="flex items-center">
                   <svg
@@ -576,7 +537,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
-                <p>Copyright © 2025 by HanzoPulao</p>
+                <p>Copyright © 2025 by HanzoSushi</p>
               </div>
               <div className="flex space-x-6">
                 <a href="#">PRIVACY POLICY</a>

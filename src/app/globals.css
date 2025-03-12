@@ -5,4 +5,9 @@
 body {
   
   font-family: Arial, Helvetica, sans-serif;
+  background: #eeeee6;
+  
+    background-image: url("/AGI_BW.png");
+    background-repeat: repeat;
+  
 }
