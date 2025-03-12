@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex justify-between items-center">
             <div className="flex items-center">
               <Image
-                src="/cbhero.png"
+                src="/logo.png"
                 alt="Chittibabu Kodi  Logo"
                 width={100}
                 height={32}
@@ -90,7 +90,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative bg-[#1A0C0C] text-white">
         <div className="container  flex mx-auto px-4 pt-16 pb-32 relative z-10">
-          <div className="max-w-2xl mx-auto text-left mb-16">
+          <div className="max-w-2xl flex flex-col justify-center   mx-auto text-left mb-16">
             <h1 className="text-4xl md:text-5xl font-serif mb-4 leading-tight">
               Relive the Taste of Tradition !
             </h1>
