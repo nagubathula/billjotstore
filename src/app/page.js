@@ -16,7 +16,7 @@ export default function Home() {
             <div className="flex items-center">
               <Image
                 src="/cbhero.png"
-                alt="Hanzo Logo"
+                alt="Chittibabu Kodi  Logo"
                 width={100}
                 height={32}
                 className="mr-2"
@@ -366,20 +366,18 @@ export default function Home() {
 
           <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-serif mb-8">
-              Sea fish & dishes
+             Starter and Curries
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="md:order-2">
-                <div className="flex justify-between mb-3">
-                  <div>
-                    <h3 className="font-medium">Crispy rice dishes</h3>
-                    <p className="text-gray-500 text-sm">
-                      Crispy rice, Yellowtail, Yuzu
-                    </p>
+               {/* Peethala Curry */}
+               <div className="flex justify-between mb-3">
+                    <div>
+                      <h3 className="font-medium">Peethala Curry (2 Pieces)</h3>
+                    </div>
+                    <div className="font-medium">₹300</div>
                   </div>
-                  <div className="font-medium">$16.25</div>
-                </div>
 
                 <div className="flex justify-between mb-3">
                   <div>
@@ -576,7 +574,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-4 md:mb-0">
-                <p>Copyright © 2025 by HanzoPulao</p>
+                <p>Copyright © 2025 by Chittibabu Kodi Pulao</p>
               </div>
               <div className="flex space-x-6">
                 <a href="#">PRIVACY POLICY</a>
