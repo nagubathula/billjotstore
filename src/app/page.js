@@ -503,8 +503,8 @@ export default function Home() {
                   </span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-serif mb-6">
-                  "Authentic Pulao and rolls, expertly crafted with care,
-                  tradition, and exceptional flavors"
+                  Authentic Pulao and rolls, expertly crafted with care,
+                  tradition, and exceptional flavors
                 </h2>
                 <div className="flex items-center">
                   <p className="font-medium">Shuhei T. Morgan</p>

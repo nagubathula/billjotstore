@@ -568,7 +568,7 @@ export default function MenuPage() {
           {searchQuery.trim() !== "" && (
             <div className="mb-8">
               <h2 className="text-xl font-bold mb-4">
-                Search Results for "{searchQuery}"
+                Search Results for {searchQuery}
               </h2>
 
               {filteredProducts.length === 0 ? (
