@@ -349,7 +349,6 @@ export default function Home() {
                     <div className="font-medium">₹300</div>
                   </div>
                 </div>
-             
               </div>
 
               <div className="relative">
@@ -366,47 +365,114 @@ export default function Home() {
 
           <div className="mb-12">
             <h2 className="text-3xl md:text-4xl font-serif mb-8">
-             Starter and Curries
+              Starter and Curries
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="md:order-2">
-               {/* Peethala Curry */}
-               <div className="flex justify-between mb-3">
-                    <div>
-                      <h3 className="font-medium">Peethala Curry (2 Pieces)</h3>
-                    </div>
-                    <div className="font-medium">₹300</div>
-                  </div>
-
+                {/* Peethala Curry */}
                 <div className="flex justify-between mb-3">
                   <div>
-                    <h3 className="font-medium">Deep Blue steak</h3>
-                    <p className="text-gray-500 text-sm">
-                      Tuna steak, Wasabi, Yuzu
-                    </p>
+                    <h3 className="font-medium">Peethala Curry (2 Pieces)</h3>
                   </div>
-                  <div className="font-medium">$19.95</div>
+                  <div className="font-medium">₹300</div>
+                </div>
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Egg Fried Rice</h3>
+                  </div>
+                  <div className="font-medium">₹99</div>
                 </div>
 
                 <div className="flex justify-between mb-3">
                   <div>
-                    <h3 className="font-medium">Scampi tempura</h3>
-                    <p className="text-gray-500 text-sm">
-                      Scampi, tempura batter
-                    </p>
+                    <h3 className="font-medium">Chicken Fried Rice</h3>
                   </div>
-                  <div className="font-medium">$15.45</div>
+                  <div className="font-medium">₹250</div>
                 </div>
 
                 <div className="flex justify-between mb-3">
                   <div>
-                    <h3 className="font-medium">Wild salmon</h3>
-                    <p className="text-gray-500 text-sm">
-                      Fresh, sesame, ponzu sauce
-                    </p>
+                    <h3 className="font-medium">Prawns Fried Rice</h3>
                   </div>
-                  <div className="font-medium">$18.95</div>
+                  <div className="font-medium">₹300</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Fish Fry (1 Piece)</h3>
+                  </div>
+                  <div className="font-medium">₹150</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Fish Fry (3 Pieces)</h3>
+                  </div>
+                  <div className="font-medium">₹250</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Chicken Fry</h3>
+                  </div>
+                  <div className="font-medium">₹250</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Roti Meals</h3>
+                  </div>
+                  <div className="font-medium">₹200</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Natukodi Pulusu Rice</h3>
+                  </div>
+                  <div className="font-medium">₹250</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Mutton Curry Rice</h3>
+                  </div>
+                  <div className="font-medium">₹250</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Prawns Curry Rice</h3>
+                  </div>
+                  <div className="font-medium">₹250</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Chicken Wings Dry (Spicy)</h3>
+                  </div>
+                  <div className="font-medium">₹150</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Chilli Jumbo Wings</h3>
+                  </div>
+                  <div className="font-medium">₹150</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Grill Chicken (Half)</h3>
+                  </div>
+                  <div className="font-medium">₹150</div>
+                </div>
+
+                <div className="flex justify-between mb-3">
+                  <div>
+                    <h3 className="font-medium">Grill Chicken (Full)</h3>
+                  </div>
+                  <div className="font-medium">₹300</div>
                 </div>
               </div>
 
